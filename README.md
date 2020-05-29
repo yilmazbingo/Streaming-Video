@@ -29,5 +29,43 @@ This is a front-end react project to implement video streaming app upon a reques
 
    Internally BrowserRouter creates the history object. Anytime BrowserRouter renders some component, browserRouter passes that history object as a prop down to the components. Inside of any component that gets rendered directly by react router, it is going receive history object. That component could easily trigger some navigation inside of it. But in our case we are not trying to do navigation from a component, we are trying to do navigation from an action creator. Getting access to the history object inside of a action creator or any non react component essentially is a little bit challenging. So instead of having BrowserRouter creates the history object, we are gonna create it with the [history](https://www.npmjs.com/package/history) package. 
 
+- In home page, we are going to fetch all the avaiable streams from json-server. once user clicks on title, it will make a request to RTMP server. 
 
-and also when we fetch our streams inside client directory, we send request here. 
+         renderList() {
+            return this.props.streams.map((stream) => {
+              return (
+                <div className="item" key={stream.id}>
+                  {this.renderAdmin(stream)}
+                  <i className="large middle aligned icon camera" />
+                  <StyledDiv className="content">
+                    <Link to={`/streams/${stream.id}`}>{stream.title}</Link>
+                    <div className="description">{stream.description}</div>
+                  </StyledDiv>
+                </div>
+              );
+            });
+          }
+          
+    In the above code snippet, if we click on `stream.title`. we will be navigated to `/streams/${stream.id}` which is where we render StreamShow page. this is where I created the player and it every bit of code is explained in there.
+   
+ - src is the main source of the app. 
+  for google oauth service, I used the cdn :
+  
+  `<script src="https://apis.google.com/js/api.js"></script>
+`
+  We do not need client secret for browser applications. It is only for the server apps.
+  
+  this is my redux-store:
+  
+       export default combineReducers({
+         auth: authReducer,
+         form: formReducer,
+         streams: streamReducer,
+     });
+    
+   form is the for redux-form.
+   auth is where I keep the authentication info.
+   streams is where i get all the streams from json-server. 
+     
+
+    
