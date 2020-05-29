@@ -5,5 +5,5 @@ This is a front-end react project to implement video streaming app upon a reques
 
 - But we also have some other information that we want to share with our users. For example, a user needs to know what streams are currently broadcasting or what streams exist inside of our application. So we are going to have a separate Api server that is essentially just going to store a list of all the different streams or channels that are available inside of our application. So a user is essentially going to first inside the browser visit that server and see the list of streams that are available. Once they see the appropriate stream they can then select that stream and that will essentially make a request over to the RTMP server to  get the live video feed and then show it on the screen to the user inside their browser. So in total we are really going to have three different folders in src. client, api-server and RTMP server.
 
-- api-server, will keep the list of streams. instead of creating express-server, I used (json-server)[https://www.npmjs.com/package/json-server]
+- api-server, will keep the list of streams. instead of creating express-server, I used [json-server](https://www.npmjs.com/package/json-server)
 
