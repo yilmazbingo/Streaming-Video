@@ -1,0 +1,110 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is a great stream.",
+      "id": 1
+    },
+    {
+      "title": "Me Streaming Component Reuse!",
+      "description": "This stream is about refactoring!!!",
+      "id": 4
+    },
+    {
+      "title": "ali",
+      "description": "abba",
+      "userId": null,
+      "id": 6
+    },
+    {
+      "title": "dhsdhs",
+      "description": "sdbbdjsbd",
+      "userId": null,
+      "id": 7
+    },
+    {
+      "title": "dhsdhs",
+      "description": "sdbbdjsbd",
+      "userId": null,
+      "id": 8
+    },
+    {
+      "title": "dhsdhs",
+      "description": "sdbbdjsbd",
+      "userId": null,
+      "id": 9
+    },
+    {
+      "title": "dhsdhs",
+      "description": "sdbbdjsbd",
+      "userId": null,
+      "id": 10
+    },
+    {
+      "title": "dhsdhs",
+      "description": "sdbbdjsbd",
+      "userId": null,
+      "id": 11
+    },
+    {
+      "title": "dhsdhs",
+      "description": "sdbbdjsbd",
+      "userId": null,
+      "id": 12
+    },
+    {
+      "title": "dhsdhs",
+      "description": "sdbbdjsbd",
+      "userId": null,
+      "id": 13
+    },
+    {
+      "title": "dhsdhs",
+      "description": "sdbbdjsbd",
+      "userId": null,
+      "id": 14
+    },
+    {
+      "title": "dhsdhs",
+      "description": "sdbbdjsbd",
+      "userId": null,
+      "id": 15
+    },
+    {
+      "title": "a new one",
+      "description": "wnfff",
+      "userId": "115198741403519592221",
+      "id": 17
+    },
+    {
+      "title": "dekerjre",
+      "description": "erjkerwejrw;re",
+      "userId": "115198741403519592221",
+      "id": 18
+    },
+    {
+      "title": "dekerjre",
+      "description": "erjkerwejrw;re",
+      "userId": "115198741403519592221",
+      "id": 19
+    },
+    {
+      "title": "dekerjre",
+      "description": "erjkerwejrw;re",
+      "userId": "115198741403519592221",
+      "id": 20
+    },
+    {
+      "title": "lkrelntlker",
+      "description": "nf.merwrere",
+      "userId": "115198741403519592221",
+      "id": 21
+    },
+    {
+      "title": "dsda",
+      "description": "yilmaz",
+      "userId": "115198741403519592221",
+      "id": 22
+    }
+  ]
+}

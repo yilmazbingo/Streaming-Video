@@ -1,0 +1,11 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "babel-plugin-styled-components"
+  ]
+}
+//this preset allows us use new class property syntax.
+//we define methdods with arrow functions
+//"this" inside the method will always refer to the class instance.

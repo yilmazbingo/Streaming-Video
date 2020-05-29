@@ -1,0 +1,18 @@
+.is-active {
+  font-weight: bold;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: $m-size;
+  // background: $dark-blue;
+}
+button {
+  cursor: pointer;
+}
+button {
+  cursor: default;
+}
